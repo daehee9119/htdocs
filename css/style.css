@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, div, ul, li, ol, li, dd, dt, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, select, input {
+	margin:0; 
+	padding:0;
+}
+/*브라우저상의 공백을 제거*/
+
+body, input, textarea, select, button, table {
+	font-family:"나눔고딕",Nanum Gothic, "돋움", Dotum, helvetica, sans-serif; 
+	font-size:12px; 
+	line-height:1.7;
+}
+/*글자가 들어가는 모든 영역에 나눔고딕과 돋움, 헬베티카를 웹폰트로 설정한다.*/
+/*line-height의 간격을 1.7로 설정한다.*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:12px; 
+	font-weight:normal;
+}
+a {
+	color:#2f3743; 
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#390;
+}
+img {
+	border:0;
+}
+.blind {
+	width:0; 
+	height:0; 
+	position:absolute; 
+	left:0; top:0; 
+	font-size:0; 
+	line-height:0; 
+	overflow:hidden;
+}
+.info {
+	font-family:"나눔고딕",Nanum Gothic, "돋움", Dotum, helvetica, sans-serif; 
+	font-size:12px; line-height:1.7;
+}
+
+/*Layout*/
+body {
+	background:url(../image/body_bg.jpg);
+}
+#wrap {}
+#header {
+	width:100%; 
+	height:327px;
+}
+#contents {
+	width:100%;
+	border: 1px solid #FFF;
+}
+#footer {
+	width:100%; 
+	border-top:1px solid #dedede;
+}
+/*width 100% -> 전체배경*/
+
+/*leaflet*/
+/*
+.info {
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+
+.legend {
+	text-align: left;
+	line-height: 18px;
+	color: #555;
+}
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 0.7;
+}
+*/
+/*header_container*/
+.header_container {
+	position:relative; 
+	width:990px; 
+	height:230px; 
+	margin:0 auto;
+	border: 1px solid #FFF;
+}
+.header_container .icon{
+	position:absolute; 
+	width:100%; 
+	
+}
+.header_container h1 {
+	position:absolute; 
+	top:150px; left:300px; 
+	z-index:20; 
+	background-color:rgba(255,255,255,0); 
+}
+.header_container h1 a {
+	display:block; 
+	color:#fff; 
+	padding:10px 15px; 
+	font-size:16px;
+}
+.header_container h2 {
+	position:absolute; 
+	top:110px; left:230px; 
+	padding:5px 15px; 
+	font-size:24px; text-transform:uppercase; 
+	z-index:10; color:#fff; 
+	background-color:rgba(255,255,255,0); 
+}
+
+
+/*contents layout*//*
+#cont_nav {width:100%;}
+
+/*nav_container*//*
+.nav_container{width:990px; margin:0 auto;} 
+.nav_container img{overflow:hidden; padding:20px 0;}
+.nav_container img:hover{background-color:#25a2d0; color:#fff;}
+
+
+/*footer_container*/
+.footer_container {
+	width:990px; 
+	margin:0 auto; 
+	padding:10px 0; 
+	text-align:center; 
+}
+.footer_container a:visited {
+	color:#666; 
+	text-decoration:none;
+}
+.footer_container a:hover {
+	text-decoration:underline;
+}
+.footer_container ul {
+	margin:10px 0;
+}
+.footer_container li {
+	display:inline; 
+	position:relative; 
+	padding:0 5px 0 7px; 
+	background:url(../image/bar.gif) 0 50% no-repeat; 
+	white-space:nowrap;
+}
+.footer_container li a:hover {
+	color:#438a01;
+}
+.footer_container address {}
+
