@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="picture.html">Pictures</a></li>
+<li><a href="video.html">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+
+6번째 책 : 성공하는 YES와 NO의 지혜<br>
+저자: 발타자르&nbsp;그라시안 
+<br>장운갑 편역<br>읽은&nbsp; 날짜: 6월 6일 금요일 5시 경상관 지하 열람실<br>
+르상스<br>
+<hr>
+&nbsp;&nbsp;이 책의 저자인 <b><font color="purple">그라시안</font></b>은 예수회의 성직자로, 인간애에 관한 통찰력으로 매우 유명한 성인이다. 나는 제목만 보고, YES와 NO의 중요성에 대해서만 책을 쓴 줄 알았는데, 일반적인 자기계발서였고, 일반 자기계발서가 그렇듯, 맞는 이야기들을 늘어놓았지만, 이 책의 부분 부분은 나의 뒤통수를 강력하게 때리는 듯한 느낌을 주기도 하였다.<br><br> 
+ 우선 이 책에서 내가 강력한 느낌을 받았던 글귀들을 써놓으려 한다.<br><br>
+ &nbsp;&nbsp;그 무엇에도 휘둘리지 않고 생각한 대로 행동하는, 올바른 판단력과 굳은 결단력을 겸비한 사람은 쉽게 성공을 거둔다. 현명한 자는 자신의 실수를 교묘하게 숨기지만 어리석은 자는 자신이 지금부터 저지를 지도 모를 실수까지도 타인에게 말을 해버린다. 잘못 판단하기 쉬운 사람일수록 자신의 생각을 고집한다. 자신이 옳다 하더라도 양보를 하는 것이 현명한다. 언젠가 그 속 깊은 행동 때문에 모든 사람들이 칭찬을 할 것이다. 의지를 고집스럽게 지켜야한다. 하지만 자신의 생각을 지나치게 고집해서는 안된다.<br><br>
+ &nbsp;&nbsp;화를 내야 마땅할 때 화를 내야 한다는 것을 모르는 경우도 많다. 엄격한 면도 있고, 부드러운 면도 있는 것이 분별있는 인간의 참된 모습이다. 언제나 웃기만 하는 것은 어린아이와 어리석은 자 뿐이다. 너무 둔감하면 커다란 재앙을 맞이하게 된다.<br><br>
+ 좋은 것을 구별해 내는 눈이 없다면 감수성이 무딘 사람이라는 사실을 알아차리지 못하도록 해야 한다. 모든 것을 한꺼번에 싸잡아 비난해서는 안 된다. 모든 사람들이 좋은 것이라고 생각하는 것은 틀림없이 좋은 것이며, 적어도 좋을 것일 가능성이 높다고 할 수 있다.  <font color="red">용기가 없는 자</font>는 자신의 마음을 단련하는데 힘써야 한다. 용기가 넘치며 자신감이 있는 사람은 어떤 고뇌에도 잘 견딘다. 결코 운명에 굴복해서는 안 된다. 굴복하면 불운이 또 다른 불운을 불러와 더욱 견디기 어려운 운명에 휩싸이게 된다.
+ <br><br>&nbsp;&nbsp;심각하게 고민해야할 정도로 중대하고 복잡한 일은 그리 흔하지 않다. 그냥 내버려두면 될 일을 진지하게 생각한다는 건 어리석은 일이다. 모든 것을 흐름에 맡기고 사람들의 마음이 올바른 방향으로 향하기를 기다리는 것이 가장 좋다.
+ <br><br>&nbsp;&nbsp; <font color="red">목표로 삼을 만한 위인</font>을 한명 마음에 품어야 한다. 그 사람을 흉내내지 말고 그 사람과 경쟁해야 한다. 격렬한 분노나 커다란 기쁨에 빠져서 한순간이라도 이성을 잃게 되면 평소의 냉정한 태도와는 전혀 다른 어처구니 없는 행동을 저지르게 되기 쉽다. 한 순간의 격정을 참지 못해 평생 후회할 만한 일을 하게 될 지도 모른다. 교활한 사람은 일부러 상대방이 화를 낼 만한 덫을 놓아 상대방을 살피며 그의 본심을 알아내려 한다. 그렇게 비밀을 캐내며 마음 깊은 곳까지 들어다보려 한다. 그런 덫에 대항하기 위해선 자제심과 굉장한 분별력이 필요하다.<br><br>
+ &nbsp;&nbsp;마음이 비천한 사람을 쓰러트리는데 에너지를 소비하기 보다는 고결한 사람과 싸우는 편이 유익하다. 자신의 운이 어디에 있는지, 자신에게 맞는 일이 무엇인지를 잘 파악해야 한다. 바로 거기에 인생의 성패가 달려있다. 그 어떤 행운이 찾아온다 해도 그 것을 충분히 활용할 수 있을 만한 힘을 가지고 있지 못하면 그것을 놓쳐버리고 만다. 그런 행운이 찾아왔음에도 불구하고 선천적으로 그런 자리에 어울리지 않는 사람이나 그런 자리에 익숙하지 않은 사람은 모처럼 찾아온 기회를 놓쳐버리고 만다. <font color="red"> 여신이 눈길을 주면 앞 뒤 가리지 말고 대담하게 돌진해야한다.</font>
+ <br><br>&nbsp;&nbsp;여신은 두려움을 모르는 용맹한 자를 좋아한다. 어진 사람은 상대방이 누구든 언제나 경의를 품고 그 사람을 대하며, 어리석은 사람은 상대방이 누구든 그 사람을 경멸한다.<br>
+<a href="BookList.html">go Back</a>
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

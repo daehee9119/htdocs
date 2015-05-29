@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, div, ul, li, ol, li, dd, dt, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, select, input {margin:0; padding:0;}
+/*브라우저상의 공백을 제거*/
+
+body, input, textarea, select, button, table {font-family:"나눔고딕",Nanum Gothic, "돋움", Dotum, helvetica, sans-serif; font-size:12px; line-height:1.7;}
+/*글자가 들어가는 모든 영역에 나눔고딕과 돋움, 헬베티카를 웹폰트로 설정한다.*/
+/*line-height의 간격을 1.7로 설정한다.*/
+
+h1, h2, h3, h4, h5, h6 {font-size:12px; font-weight:normal;}
+a {color:#2f3743; text-decoration:none;}
+a:hover, a:active {color:#390;}
+img {border:0;}
+.blind {width:0; height:0; position:absolute; left:0; top:0; font-size:0; line-height:0; overflow:hidden;}
+
+/*Layout*/
+body {background:url(../image/body_bg_mis.jpg);}
+#wrap {}
+#header {width:100%; height:327px; background:url(../image/header_bg.jpg) repeat-x center top;}
+#contents {}
+#footer {width:100%; background-color:#edf0f5; border-top:1px solid #dedede;}
+/*width 100% -> 전체배경*/
+
+/*header_container*/
+.header_container {position:relative; width:990px; height:327px; margin:0 auto;}
+.header_container h1 {position:absolute; top:150px; left:430px; z-index:20;}
+.header_container h1 a {display:block; background-color:#4aa8d4; color:#fff; padding:10px 15px; font-size:16px;}
+.header_container h2 {position:absolute; top:110px; left:260px; background-color:#2698cb; padding:5px 15px; font-size:24px; text-transform:uppercase; z-index:10; color:#fff;}
+
+/*페북 아이콘*/
+.header_container .icon {position:absolute; top:230px; left:465px;}
+.header_container .icon ul li {float:left; margin-right:10px; list-style:none;}
+.header_container .icon ul li a {display:block; background:url(../image/icon.png) no-repeat; width:57px; height:57px;}
+.header_container .icon .icon_tit1 a {background-position:0px -116px;}
+.header_container .icon .icon_tit1 a:hover {background-position:0px -174px;}
+
+/*contents layout*/
+#cont_tit {width:100%; background-color:#fff;}
+#cont_cont {width:100%;}
+
+/*tit_container*/
+.tit_container {width:990px; margin:0 auto;}
+.tit_container h2 {font-size:36px; text-align:center; font-family:"Nanum Brush Script"; color:#2c94c4;}
+
+
+/*cont_container*/
+.cont_container {overflow:hidden; background:url(../image/body_bg_mis.jpg); width:990px; margin:0 auto; padding:30px 0 20px 0;}
+.cont_container .contents_item {position:relative; float:left; width:420px;height:364px; margin:0 30px 30px 0; padding-right:30px; padding-left:10px;}
+
+
+.cont_container .column1 {border-right:1px solid #ccc;}
+.cont_container .column2 {border-right:1px solid #ccc;}
+/*.cont_container .column3{padding-right:0px; margin-right:-30px;}*/
+/*display:block으로 이미지 잡아준다*/
+
+.cont_container .contents_item .icon1 .icon_img {background:url(../image/book-review.jpg) no-repeat;
+width:300px; height:150px;display:block; position:absolute; left:10px;top:0px;}
+.cont_container .contents_item .icon2 .icon_img {background:url(../image/resume.jpg) no-repeat; width:300px; height:150px;display:block; position:absolute; left:10px;top:0px;}
+
+.cont_container .contents_item p.icon_desc {padding:24px 0 0 66px; font-size:11px; line-height:15px; color:#666; border-bottom:1px dashed #ccc; height:150px; margin-bottom:15px;}
+
+
+/*notice_book*/
+.notice_book {position:relative;}
+.notice_book div {position:relative; display:block; padding-bottom:30px;}
+.notice_book div h3 {font-size:14px; color:#039; font-weight:bold;}
+.notice_book div .more {background:url(../image/more.png) no-repeat; width:16px; height:16px; position:absolute; right:0; top:6px;}
+.notice_book div ul li {overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-left:5px; list-style:inside;}
+
+/*notice_resume*/
+.notice_resume {position:relative;}
+.notice_resume h3 {font-size:14px; color:#039; font-weight:bold; margin-bottom:3px;}
+.notice_resume .more {background:url(../image/more.png) no-repeat; width:16px; height:16px; position:absolute; right:0; top:6px;}
+.notice_resume ul {}
+.notice_resume li {position:relative; width:90%; height:55px; overflow:hidden;}
+.notice_resume li a {}
+.notice_resume li img {position:absolute; top:0; left:0; border:1px solid #0093bd;}
+.notice_resume li strong {overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-left:60px; display:block; margin-top:5px;}
+.notice_resume li span {overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-left:60px; display:block; line-height:14px;}
+
+/*footer_container*/
+.footer_container {width:990px; margin:0 auto; padding:22px 0; text-align:center;}
+.footer_container a:visited {color:#666; text-decoration:none;}
+.footer_container a:hover {text-decoration:underline;}
+.footer_container ul {margin:10px 0;}
+.footer_container li {display:inline; position:relative; padding:0 5px 0 7px; background:url(../image/bar.gif) 0 50% no-repeat; white-space:nowrap;}
+.footer_container li a:hover {color:#438a01;}
+.footer_container address {}
+

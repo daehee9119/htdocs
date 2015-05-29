@@ -1,0 +1,70 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="#">Pictures</a></li>
+<li><a href="#">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+<body>
+  3번째 책 : 마르크스 주의와 노동조합 투쟁(Marxism and Trade Union Struggle)<br>
+저자: 토니&nbsp;클리프, 도니&nbsp;글룩스타인
+, 이승민 옮김 <br>읽은&nbsp; 날짜: 4월 27일 일요일 2시 성곡 도서관<br>
+책깔피<br>
+<hr>
+&nbsp;&nbsp;이 책은 편집부에서 '노동자 운동의 승리를 위해 분투하는 투사들에게 도움이 되기'를 바라며 책을 소개하고 있으며, 나는 이부분에 대해 굉장한 위압감을 느껴다. 개인적으로 마르크스 주의가 실패하였다고 알고 있었기에 이 책을 비판적으로 보고 읽기 시작했던 것 같다.<br>
+ &nbsp;&nbsp;우선 머리말에서는 저자가 '노동조합 관료'가 정부의 파업 파괴 공작을 묵인하고, 파업을 주도면밀히 통제하여 큰 규모의 파업을 제한하고 패배로 이끌었다고 맹렬히 얘기하고 있다. 그 예로, 공산당이 신뢰를 받았던 조직이지만 혁명적 정당 답게 관료들이 제시한 파업 지침을 거스르는 주장과 실현을 하지 않았다고 비판한다.<br><br>
+ &nbsp;&nbsp;이 책은 모든 쟁점의 바탕에는 노동조합 자체의 성격의 문제가 있다고 보고, 노동 조합의 기본 특징을 밝히기 위해 전통이 다른 러시아와 영국의 노동 조합을 비교하고, 마르크스, 엥겔스, 레닌의 저작을 분석한다.<br>
+ &nbsp;&nbsp;노동 조합 투쟁에 관하여 영국과 러시아를 비교해 보면, 러시아는 영국에 비해 혁명적이였고, 영국은 자본주의가 팽창하는 과정의 일부로 노동조합이 생겨났다. 러시아는 노동조합이 노동자 대중을 단결시키고, 혁명적 권력 투쟁에 동참시킬 수 있음을 보여주었다.<br>
+ 영국은 노동 조합이 기능, 산업, 성별로 노동자를 분열시킬 수 있음을 보여 주었고, 그 결과 계급 투쟁을 협소한 임금 인상 투쟁으로 제한했다. 이 책은 '관료층'이 노동자 투쟁에 걸림돌 구실을 한다며 관료층을 양산한 영국의 노동 조합을 비판했다.<br><br>
+ &nbsp;&nbsp;마르크스와 앵겔스는 노동조합이 '협소하고, 근시안적 목표'만 가지고 있어 사회주의 운동을 이끌 수 없다고 비판했다. 이는 노동 투쟁이 '임금 인상'이 목표가 아니라, '임금 제도 철폐'가 되어야 했음을 의미한다. 또한 레닌은 일상적 시기와 혁명적 시기를 구분해, 혁명적 시기가 되면 정치적 색깔을 가진 투쟁이 훨씬 긴밀히 결합되어야 하는 필연성을 보았다.<br><br>
+ &nbsp;&nbsp;이렇게 170년 동안 노동 조합 운동에 개임해온 마르크스 주의 역사에서 이끌어 낼 수 있는 주요 결론을 간단히 요약하면 다음과 같다.<br>
+ <ul>
+ <li>노동 조합은 노동 계급의 기본적 대중 조직이다. 사회주의자는 노동조합을 지지하며, 그 안에서 활동하고 어떤 상황에서도 노동조합 투쟁을 건설하려 한다.</li><li>노동 조합은 반드시 필요하지만 한계도 있다. 노동 조합 만으로는 자본주의를 타도할 수 없고, 노동 계급의 (혁명적) 정당과 노동자 평의회가 있어야 한다.</li><li>노동 조합은 노동 계급을 폭넓게 아우르는 조직이 되어야 한다. 그것이 분리되면, 고립되는 소수가 생기고, 지도자들이 더 쉽게 통제할 공산이 크다.</li><li>관료적 지도부가 나타나기 마련인데, 이를 사회주의자들은 우파 지도부에 맞서 좌파를 지지하면서도, 일반 노동자들에게 관료적 지도부를 믿고 의지하지 말고, 노동 조합 안에서 독자적으로 조직하라고 호소한다.</li><li>사회주의자는 노동 조합의 민주주의를 강화하기 위해, 모든 지도부를 선출, 소환할 권리, 지도부 임금을 조합원 평균 임금으로 제한, 민주적 총회등을 요구한다.</li>
+ </ul>
+ 
+<a href="BookList.html">go Back</a>
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="#">Pictures</a></li>
+<li><a href="#">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> <p class="&#48148;&#53461;&#44544;" style="text-align: center;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 16pt;" lang="EN-US">Future Curriculum Vitae</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Name in Full</span>
+
+<span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US"> </span><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US"> : An, JeongMan</span></p>
+<img src="face.bmp" align="right">
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Date of Birth : 1992.02.01 </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Gender</span><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US"> : male </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Nationality : Republic of Korea </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Present Address : 201,Handeok villar, Hongje
+3-dong, Seodaemun-ku, Seoul, Republic of Korea</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US"> </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Telephone : 010-8430-7430 </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">E-mail : anqsdwe@naver.com </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Marital Status : Married with one son and one </span><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">daughter</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Language: Korean, English(Advanced)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Certificates:</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Oracle Certified Java Programmer, 2015</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Testing of english for international
+communication[TOEIC], score 930, 2015 </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Craftsman Information Processing, 2013</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US">Third degree of Taekwondo, 2004</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Education:</span><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US"> </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2010 - 2015 Dept. of Management Information
+System, </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"> Kook min University (course of Bachelor)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"> (Majored in Information system)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"> </span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2011 - 2012 Exchange student to Sunshine coast
+University, Austrailia</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">(course of Bachelor)</span></p><p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Employment: </span></p>
+<span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"></span>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2020 - todate dept of game development,
+Blizzard (game planner)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2018 - 2020 Dept of E-sport, Blizzard (e-Sports
+assistant manager)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2017 - 2018 Dept of Software development and
+design, NHN technology service(deputy section chief)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2016 Dept. of Game planning and development,
+Riotgamez korea (Intern worker)</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2012 - 2014 Dischargement from Republic of
+korea marine corps</span><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">.</span></p>
+
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Conference Attended: </span></p>
+
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">May 31, 2017 Michael Porter's shared value leadership summit held by FSG.</span></p><p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">(Discussed 'Creating Shared Value')</span></p><p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">July 01 - 15, 2014 G-Scholarship to USA, 2014
+Seonggok Explorer </span><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">held by Kookmin university<br>(Researched on 'Creating Shared Value in United States')</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"> </span><span style="font-family: Times New Roman; font-size: 12pt;" lang="EN-US"> </span></p>
+
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-weight: bold; font-size: 12pt;" lang="EN-US">Awards:</span></p>
+<p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2016 Second grade at the Game scenario contest
+exhibit, NHN</span></p><p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2015 Second grade at the 2015 data mining
+contest exhibit on Tourism </span><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">industry, Ministry of Culture, Sports and
+Tourism </span>
+</p><p class="&#48148;&#53461;&#44544;"><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US">2014 Third grade at the International Day, G-Scholarship of Kookmin
+university(Culture tour area, topic was 'Introduction to China's
+culture of alcohol')</span></p><span style="font-family: Times New Roman; font-size: 12pt; color: rgb(0, 0, 128);" lang="EN-US"><br></span>
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

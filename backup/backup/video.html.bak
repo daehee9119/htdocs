@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="picture.html">Pictures</a></li>
+<li><a href="video.html">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+
+<embed autostart=false width="400" src="a.mp4" showtracker="false"></embed>
+<font align="center">인생에 있어 변하지 않는 것은 끊임 없는 변화 </font>
+<br><hr>
+<iframe width="560" height="315" src="//www.youtube.com/embed/WpkDN78P884" frameborder="0" allowfullscreen></iframe>
+<font align="center">
+Ruby Midwest 2011 - Keynote: Architecture the Lost Years by Robert Martin
+Robert C. Martin (Uncle Bob) has been a software professional since 1970.
+</font></div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

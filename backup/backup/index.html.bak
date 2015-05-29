@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="picture.html">Pictures</a></li>
+<li><a href="#">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+
+<h2>Welcome to My Home page</h2>
+<h1>&nbsp; &nbsp; This homepage will keep updated as time goes by.<br>
+<br>
+&nbsp; &nbsp; My name is An Jeong Man. Go to Introduction section for more
+information. :)</h1><br>
+<br /><br />
+<img src="IndexCat.gif" alt="CatWalkingInto" style="border: 3px solid #ccc;" />
+<br /><br />
+
+<h2>Come
+in! Come in!</a></h2>
+
+
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

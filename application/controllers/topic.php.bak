@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+class Topic extends CI_Controller {
+	/*controller는 url을 맵핑할 뿐!*/
+	/*index는 특별히 뭐 안적어도 호출된다!*/
+    function __construct(){
+        parent::__construct();
+
+        $this->load->database();
+        $this->load->model('topic_model');
+    }
+
+    function index(){
+        $topics = $this->topic_model->get();
+
+        $this->load->view('head');
+        $this->load->view('main');
+        $this->load->view('footer', array('topics'=>$topics));
+        
+		}
+
+    /*날짜에 따라 바꾸고 싶다 하면 $date를 통해 숫자를 컨트롤한다.*/
+    function get_json($date){
+	header('Content-Type: application/x-json; charset=utf-8');
+	$date=urldecode($date);
+	$result=$this->topic_model->get($date);
+
+	echo $this->output->set_output(json_encode($result));
+	}
+}
+?>

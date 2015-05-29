@@ -13,11 +13,80 @@ class Topic_model extends CI_Model {
 		/*배열로 리턴할려면 result_array() 원래 result() 이거임*/
 	}
 
-	public function get(){
+	public function get_real($id){
 		/*active record식으로 코딩한것! logical하게 작업할 수 있다*/
-		//return $this->db->get_where('topic', array('date'=>$topic_id))->row();
-		return $this->db->query('SELECT * FROM house WHERE date = 201501')->result_array();
+		if ($id!=null){		
+			$d = (int)$id;
+			$query= $this->db->get_where('house',array('date'=>$d));
+			$result=array();
+			if($query->result_array()){
+				$result=$query->result_array();
+				return $result;
+			
+			}else{
+				return false;
+			}
+		}else {
+			$id = 201501;
+			$query= $this->db->get_where('house',array('date'=>$id));
+			$result=array();
+			if($query->result_array()){
+				$result=$query->result_array();
+				return $result;
+			
+			}else{
+				return false;
+			}
+		}
 	}
+
+	public function get_traffic($id){
+		/*active record식으로 코딩한것! logical하게 작업할 수 있다*/
+		if ($id!=null){		
+			$d = (int)$id;
+			$query= $this->db->get_where('house_t',array('date'=>$d));
+			$result=array();
+			if($query->result_array()){
+				$result=$query->result_array();
+				return $result;
+			
+			}else{
+				return false;
+			}
+		}else {
+			$id = 201501;
+			$query= $this->db->get_where('house_t',array('date'=>$id));
+			$result=array();
+			if($query->result_array()){
+				$result=$query->result_array();
+				return $result;
+			
+			}else{
+				return false;
+			}
+		}
+	}
+
+	public function get_like($year,$name){
+				 
+		$namep=$name."p";//예측값 열 이름.	 
+		$sql = "SELECT date,".$name.",".$namep." FROM chart WHERE date like '%".$year."%'";
+		$query=$this->db->query($sql);
+		
+		$result=array();
+
+		if($query->result_array()){
+			$result=$query->result_array();	
+			
+			return $result;
+		}else{
+			echo "alert('ERROR IN MODEL!!')"; 
+			return false;
+		}
+	}
+
+
+
 }
 
 

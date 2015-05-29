@@ -10,25 +10,47 @@ class Topic extends CI_Controller {
     }
 
     function index(){
-        //$id = 201501;
-        $topics = $this->topic_model->get();
-        $this->load->view('head');
+        $date = 201501;
+        $topics = $this->topic_model->get_real($date);
+
         $this->load->view('main');
-        //$this->load->view('footer', array('topics'=>$topics));
-        $this->load->view('footer', array('topics' => $topics));
-        //$this->load->view('json', array('topics' => $topics));
-        //$this->output
-        //->set_content_type('application/json')
-        //->set_output(json_encode(array('topics' => $topics)));
+        
+	}
+
+    /*날짜에 따라 바꾸고 싶다 하면 $date를 통해 숫자를 컨트롤한다.*/
+    function get_real($id){
+    	header('Content-Type: application/x-json; charset=utf-8');
+    	$id = urldecode($id);
+        $result=$this->topic_model->get_real($id);
+
+        $this->load->view('main');
+    	$this->output->set_output(json_encode($result));
+	}
+
+    function get_traffic($id){
+        header('Content-Type: application/x-json; charset=utf-8');
+        $id = urldecode($id);
+        $result=$this->topic_model->get_traffic($id);
+
+        $this->load->view('main');
+        $this->output->set_output(json_encode($result));
     }
 
-    /*숫자에 따라 바꾸고 싶다 하면 $id를 통해 숫자를 컨트롤한다.*/
-    
-    function get($id){
-        $topic = $this->topic_model->get($id);
-        $this->load->view('head');
+    function get_chart($id){
+        header('Content-Type: application/x-json; charset=utf-8');
+        $id = urldecode($id);
+        $result=$this->topic_model->get_chart($id);
+
         $this->load->view('main');
-        $this->load->view('footer', array('topic'=>$topic, 'id'=>$id));
+        $this->output->set_output(json_encode($result));
+    }
+
+    function get_json_gchart($y,$n){
+        header('Content-Type: application/x-json; charset=utf-8');
+        
+        $result=$this->topic_model->get_like($y,$n);
+        
+        $this->output->set_output(json_encode($result));
     }
 }
 ?>

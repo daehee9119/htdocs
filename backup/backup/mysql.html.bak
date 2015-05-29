@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type" />
+<style>
+body{background-color:tan;}
+h1{color:maroon;font-size:20pt;}
+a:link{color:green;}
+a:hover{color:black;}
+a:active{color:blue;}
+.index{background-color:rgb(229,211,209);}
+</style><title>mysql</title>
+
+</head>
+
+<body>
+
+</body></html>
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="picture.html">Pictures</a></li>
+<li><a href="video.html">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+<form method="post" action="viewstudent.php" target="_self"><input name="submit" value="View all students" type="submit" /></form>
+<br />
+<form method="post" action="viewgrade.php" target="_self"><input name="submit" value="View all grades" type="submit" /></form>
+<br />
+<form method="post" action="compute.php" target="_self">
+1.Compute student's Average grade:<br />
+input student's number:<input type="int" name="number" size="11">
+<br><input name="submit" value="Compute" type="submit"><br /></form>
+<br />
+2.Insert student's information:<br />
+create student name(should be not null):<form method="post" action="insert1.php" target="_self"><input type="text" name="studentname" size="15">
+<br>
+create student number(should be not null):<br><input type="int" name="studentnumber" size="11"><br />
+<input type="submit" name="submit" value="Insert"></form><br />
+<br />
+2.Insert student's grade:<br />
+create student number(should be not null):<form method="post" action="insert2.php" target="_self"><input type="int" name="number" size="11"><br />
+create the name of the class that student's enrolled:<input type="text" name="subject" size="15"><br />
+create the student's year:<input type="int" name="year" size="1"><br />
+create the student's semester for the subject:<input type="int" name="semester" size="1"><br />
+create the grade:<input type="double" name="grade" size="4"><br />
+<input name "submit" value="Insert" type='submit'></form><br />
+<br />
+<form method="post" action="update.php" target="context">
+5.change student's grade <input type="double" name="grade" size="4">
+where student number <input type="int" name="number" size="11"> and name of subject
+<input type="text" name="subject" size="50">.<br>
+<input name "submit" value="Update" type='submit'></form>
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

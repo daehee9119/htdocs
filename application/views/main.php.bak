@@ -1,0 +1,40 @@
+
+    <div id="header">
+    	<div class="icon">
+        	<img src="../image/header_menu.jpg" usemap="#logo" />
+            <map name="logo">
+            	<area shape="rect" coords="10,16,254,98" href="#" target="_self">
+                <area shape="rect" coords="320,80,435,24" href="#" target="_self">
+                <area shape="rect" coords="440,80,545,24" href="#" target="_self">
+                <area shape="rect" coords="573,80,697,24" href="#" target="_self">
+                <area shape="rect" coords="735,80,863,24" href="#" target="_self">
+                <area shape="rect" coords="900,80,1077,24" href="#" target="_self">
+            </map>
+        </div><!--logojpg end-->
+        <div class="header_container">
+        	<h1><a href="#">2015 KOOKMIN UNIVERSITY CAPSTONE DESIGN</a></h1>
+        	<h2>검색 트래픽 데이터와 서울 아파트 매매가격간의 상관관계</h2>
+    	</div><!--header_container end-->
+    </div><!--header end-->
+
+    <div id="contents">
+    	
+        <div id="container">
+
+            <div id="control">
+                <input type="radio" id="radio1" name="type" value="realPrice" checked><label for="radio1">아파트 매매가</label>
+                <input type="radio" id="radio2" name="type" value="traffic"><label for="radio2">검색지수</label>
+                <div class="date"></div>
+            </div><!--control end-->
+
+            <div id="slider-container">
+                <div id="slider"></div>
+		  현재 날짜: <span id="dateval" style="color:white"/>2013.02 </span>
+		
+				</div><!--slider_container end-->
+          		
+            <div id="map"></div>
+      
+        </div><!--container end-->
+    </div>--><!---contents end-->
+    

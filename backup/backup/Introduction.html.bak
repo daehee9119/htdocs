@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Welcome to Jeong Man's Website!!!</title>
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Welcome
+to JeongMan's Website!</h1>
+<h2>MIS stuff, and my datas on System management</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Introduction.html">Introduction</a></li>
+<li><a href="CurrentCV.html">Current Resume</a></li>
+<li><a href="FutureCV.html">Future Resume</a></li>
+<li><a href="BookList.html">Book Review</a></li>
+<li><a href="myWork.html">My Work</a></li>
+<li><a href="#">Pictures</a></li>
+<li><a href="#">Videos</a></li>
+
+</ul>
+</div>
+
+<div id="content">
+<div class="right"> 
+First Name: Jeong Man<br />
+Last Name: An<br />
+Birth Date : 1st, February, 1992.<br />
+Address:&nbsp;201,Handeok villar, Hongje 3-dong, Seodaemun-ku,
+Seoul, Republic of Korea.<br />
+Zip code: 120-857<br />
+<hr />My major is MIS(Management Information System), which
+refers to
+how to manage information resources, human resources and financial
+resources.<br />
+This site was built to represent my current curriculum
+vitae and future curriculum vitae as well as book reviews that I have
+read during the first semester of 3th grade in university.<br />
+<br />
+I will keep updating this website for my whole life and fill up my
+current CV as future CV declared.<br />
+
+
+</div>
+</div>
+<div style="clear: both;"> </div>
+
+
+</div>
+<div class="footer">
+20103044 An JeongMan. Kookmin University 2014 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Oswald);
+
+.status {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.status .panel-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    padding-top: 20px;
+    letter-spacing: -0.8px;
+}
+
+.panel-complete{
+border-color: #04B404;
+color: #04B404;
+
+}
+.panel-complete>.panel-heading{
+	color: #04B404;
+	background-color: #04B404;
+	border-color: #04B404;
+
+}
+
+.panel-stop{
+border-color: #DF0101;
+color: #DF0101;
+
+}
+.panel-stop>.panel-heading{
+	color: #DF0101;
+	background-color: #DF0101;
+	border-color: #DF0101;
+
+}
+
+.panel-inprogress{
+border-color: #0080FF;
+color: #0080FF;
+
+}
+.panel-inprogress>.panel-heading{
+	color: #0080FF;
+	background-color: #0080FF;
+	border-color: #0080FF;
+
+}
+
+
+.panel-all{
+border-color: #2E2E2E;
+color: #2E2E2E;
+
+}
+.panel-all>.panel-heading{
+	color: #2E2E2E;
+	background-color: #2E2E2E;
+	border-color: #2E2E2E;
+
+}
